@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <title>Hello Wifi</title>
+    <style type="text/css">
+        @font-face {
+            font-family: 'iconfont';
+            src: url('http://at.alicdn.com/t/font_1421223781_1445792.eot'); /* IE9*/
+            src: url('http://at.alicdn.com/t/font_1421223781_1445792.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1421223781_1445792.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1421223781_1445792.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1421223781_1445792.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+        .iconfont {
+            font-family: "iconfont";
+            font-size: 16px;
+            font-style: normal;
+        }
+
+        .ui-scanner {
+            width: 100%;
+            background-color: lightgray;
+            list-style-type: none;
+            padding: 0;
+            font-size: 19px;
+        }
+
+        .ui-scanner-item {
+            width: 90%;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+            line-height: 40px;
+            background-color: azure;
+        }
+        .ui-scanner-item i {
+            font-size: 30px;
+        }
+
+        .ui-scanner-item-right {
+            float: right;
+            margin-right: 5px;
+        }
+
+        .ui-scanner-item-right-action {
+            margin-left: 10px;
+            background-color: aqua;
+            border: 3px solid aqua;
+        }
+    </style>
+</head>
+<body style="background-color: lightgray;overflow-x: hidden;">
+<ul class="ui-scanner">
+    <li class="ui-scanner-item">
+        <i class="iconfont">&#xe600</i>
+        <div class="ui-scanner-item-right">
+            <span>wangyi wifi</span> <span>90%</span> <a class="ui-scanner-item-right-action">连接</a>
+        </div>
+
+    </li>
+    <li class="ui-scanner-item">
+
+    </li>
+    <li class="ui-scanner-item">
+
+    </li>
+
+
+</ul>
+
+<div style="width: 500px;height: 500px;">
+    <input type="button" value="button" id="btn"/>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
